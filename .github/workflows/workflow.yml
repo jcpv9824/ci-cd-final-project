@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]
 
 jobs:
-  name: CI-workflow
+  CI-workflow:
     runs-on: ubuntu-latest
     container: python:3.9-slim
     steps:
